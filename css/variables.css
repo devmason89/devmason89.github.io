@@ -8,7 +8,8 @@
     --sand:#B7A99A;
     --lightpink:#FBA7B2;
 
-    --font-one:'Libre Baskerville';serif;
-    --font-two:'Montserrat';sans-serif;
+    --font-one:'Libre Baskerville',serif;
+    --font-two:'Montserrat',sans-serif;
+    --font-three:'Cursive',serif;
 
 }

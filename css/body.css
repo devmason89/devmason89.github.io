@@ -1,49 +1,69 @@
  body {
     background: var(--lightpink);
-    font-family:var(--font-one);       !--same as typing out :"Libre Baskervilee"
+    font-family:var(--font-one);       
 }
 
-/* Desktop PC Mobile Responsiveness stuff*/
-​
-/*Insert all your CSS for main website here
-Then anything that needs to be queried gets dropped below*/
-​
-/* Responsive
-@media screen and (max-width: 1159px) {
-​
-} */
-/* Ipad Pro COMPLETE */
-/* @media screen and (max-width: 1024px) {
-​
-} */
-/* Ipad COMPLETE */
-/* @media screen and (max-width: 769px) {
-​
-} */
-​
-/* Samsung Moto X */
-/* @media screen and (max-width: 725px) {
-​
-} */
-/* Iphone 6/7/8 Plus COMPLETE */
-/* @media screen and (max-width: 414px) {
-​
-} */
-/* Pixel 2 & Pixel 2 XL COMPLETE */
-/* @media screen and (max-width: 412px) {
-​
-} */
-/* iPhone 6/7/8 & iPhone X COMPLETE */
-/* @media screen and (max-width: 400px) {
-​
-} */
-/* Galaxy S5
-@media screen and (max-width: 375px) {
-​
-} */
-/* Iphone 5/SE */
-/* @media screen and (max-width: 330px) {
-​
-} */
+.devonPicture {
+    width:30%;
+    height:30%;
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 150px;
+    display:inline-block;
+}
+
+.img2 {
+    height:100vh;
+    width:100%;
+    background-image:url(../assets/portfolio-2.jpg);
+    background-size:cover;
+    background-position: center;
+    display:table;
+    background-attachment:fixed;
+}
+
+.img3 {
+    height:100vh;
+    width:100%;
+    background-image:url(../assets/portfolio-5.jpg);
+    background-size:cover;
+    background-position: center;
+    display:table;
+    background-attachment:fixed;
+}
+
+.img4 {
+    height:100vh;
+    width:100%;
+    background-image:url(../assets/portfolio-3.jpg);
+    background-size:cover;
+    background-position: center;
+    display:table;
+    background-attachment:fixed;
+}
+.img5 {
+    height:100vh;
+    width:100%;
+    background-image:url(../assets/portfolio-10.jpg);
+    background-size:cover;
+    background-position: center;
+    display:table;
+    background-attachment:fixed;
+}
+
+.portfolio {
+    padding:25px;
+}
 
 
+.button {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:var(--fontOne);
+    margin: 70px;
+    border: 5px solid white;
+    border-style:groove;
+    font-size:150%;
+}

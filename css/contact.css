@@ -1,6 +1,6 @@
-.formSpree {
+#contactContainer {
     justify-content:center;
-    align-content:center;
+    flex-direction:row;
     align-items:center;
-    float:left;
+    text-align:center;
 }

@@ -1,0 +1,19 @@
+.row h6 {
+    font-size:75%;
+    color:white;
+}
+
+a:link, a:visited {
+    color: white;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+  }
+
+.row {
+    margin:0px;
+    padding:0px;
+    display:flex;
+    justify-content:space-around;
+
+}
