@@ -16,7 +16,7 @@
 <!--NAVBAR-->
 <section>
     <div class="row">
-        <nav class="navbar navbar-expand-lg navbar-light text-danger bg-light  id="navBar">
+        <nav class="navbar navbar-expand-lg text-danger  id="navBar">
                 <a class="navbar-brand" href="#">Home</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -24,16 +24,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="nav justify-content-end">
                     <li class="nav-item">
-                      <a class="nav-link" href="#">About</a>
+                      <a class="nav-link" href="#aboutMe">About</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Portfolio</a>
+                      <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Resume</a>
+                      <a class="nav-link" href="#resume">Resume</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Contact</a>
+                      <a class="nav-link" href="#contact">Contact</a>
                     </li>
                   </ul>
                 </div>
@@ -67,7 +67,21 @@
         Feel free to visit my <a href="https://github.com/devmason89">Github</a> and say hi on <a href="https://www.linkedin.com/in/devon-mason-96061a4b/">LinkedIn</a>.</a> 
         </div>
     </div>
-</div> 
+        <h1 class="interests"><center>Interests</center></h1>
+    <div class="row" id="icons">
+        <div class="col-3">
+        <a href="https://www.devonmasonphotography.com/"><img class="camera" src="assets/camera.png"></a>
+        </div>
+        <div class="col-3">
+        <a href="https://devonmeetsworld.com/"><img class="world" src="assets/diary.png"></a>
+        </div>
+        <div class="col-3">
+        <a href="https://devonmeetsworld.com/tongariro-alpine-crossing-trekking-guide/"><img class="hike" src="assets/boot.png"></a>
+        </div>
+        <div class="col-3">
+        <img class="music" src="assets/music-player.png">
+        </div>  
+    </div> 
 </section>
 
 <section>
@@ -76,27 +90,58 @@
     </div>
 </section>
 
-<section>
+<section id="portfolio">
     <!--Portfolio-->
-    <h1 class="portfolio">Portfolio</h1>
-    <div class="row">
-    <figure class="col-3">
-            <a href="https://codepen.io/Devmason"><img src="../Portfolio/assets/code_pen.png" class="figure-img img-fluid rounded" alt="CSS Creature on Codepen"></a>
-            <a figcaption class="figure-caption" href="https://codepen.io/Devmason">CSS Creature on Codepen
-    </figure></a>
-    <figure class="col-3">
-            <a href="https://repl.it/@devmason"><img src="../Portfolio/assets/repl.png" class="figure-img img-fluid rounded" alt="JavaScript Challenges on Repl"></a>
-                <figcaption class="figure-caption" href="https://repl.it/@devmason">JavaScript Challenges on Repl</figcaption>
-    </figure></a>
-    <figure class="col-3">
-            <img src="../Portfolio/assets/portfolio.jpg" class="figure-img img-fluid rounded" alt="JavaScript Challenges on Repl">
-            <figcaption class="figure-caption">Placeholder for Red Badge Project</figcaption>
-    </figure>
-    <figure class="col-3">
-            <img src="../Portfolio/assets/portfolio-8.jpg" class="figure-img img-fluid rounded" alt="JavaScript Challenges on Repl">
-            <figcaption class="figure-caption">Placeholder for Blue Badge Project</figcaption>
-    </figure>
-</div>
+    <div class="card mb-3">
+            <div class="card-body">
+              <h1 class="card-title">Portfolio</h1>
+            </div>
+   </div>
+          <div class="card-deck">
+                <div class="card">
+                    <a href="https://codepen.io/Devmason"><img src="../Portfolio/assets/code_pen.png" class="card-img-top" alt="CSS Creature on Codepen"></a>
+                  <div class="card-body">
+                    <h5 class="card-title">CSS Creature</h5>
+                  </div>
+                </div>
+                <div class="card">
+                        <a href="https://repl.it/@devmason"><img src="../Portfolio/assets/repl.png" class="card-img-top" alt="JavaScript Challenges on Repl"></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Repl Challenge</h5>
+                    </div>
+                  </div>
+                <div class="card">
+                        <a href="https://devmason89.github.io/staticLayout/"><img src="../Portfolio/assets/staticLayout.png" class="card-img-top" alt="Static Layout"></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Static Layout</h5>  
+                  </div> 
+                </div> 
+            </div>   
+        </div>
+        <div class="card-deck">
+                <div class="card">
+                        <a href="#"><img src="../Portfolio/assets/API Project.png" class="card-img-top" alt="Recipe Generator"></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Recipe Generator</h5>
+                  </div>
+                </div>
+                <div class="card">
+                        <a href="#"><img src="../Portfolio/assets/portfolio-6.jpg" class="card-img-top" alt="Blue Badge Project"></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Blue Badge</h5>
+                    
+                   
+                  </div>
+                </div>
+                <div class="card">
+                        <a href="#"><img src="../Portfolio/assets/portfolio-7.jpg" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Red Badge</h5>
+                    
+                    
+                  </div>
+                </div>
+              </div>
 </section>
 
 <section>
@@ -106,7 +151,7 @@
     </div>
 </section>
 
-<section>
+<section id="resume">
         <!--Resume-->
         <div class="row">
         <div class="resume">
@@ -123,7 +168,7 @@
 <!--CONTACT FORMSPREE-->
 <section>
         <section id="contact">
-                <div class="container">
+                
                   <h2 class="text-center">Contact Me</h2>
                   <div class="row" id="contactContainer">
                     <form action="https://formspree.io/devonmmason@gmail.com" method="POST">
@@ -162,7 +207,7 @@
                           <textarea
                             class="form-control"
                             rows="7"
-                            placeholder="Your Message"
+                            placeholder="Let's Connect!"
                             id="message"
                             required
                             data-validation-required-message="Please leave a message"
@@ -180,7 +225,7 @@
                       </div>
                     </form>
                   </div>
-            </div>
+            
         </section>        
 </section>
 
@@ -193,6 +238,20 @@
 
 <section>
     <!--Footer-->
+    <div id="footer">
+    <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">© Devon Mason 2019</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/devon-mason-96061a4b/">LinkedIn</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/devmason89">GitHub</a>
+            </li>
+          </ul>
+    <div class="iconCredit">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"title="Flaticon">www.flaticon.com</a></div>
+</div>
     
 </section>
 

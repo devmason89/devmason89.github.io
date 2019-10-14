@@ -1,0 +1,9 @@
+.iconCredit{
+    display:flex;
+    justify-content: center;
+    color:white;
+}
+
+#footer {
+    background-color:var(--lightpink);
+}

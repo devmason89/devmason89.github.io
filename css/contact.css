@@ -1,6 +1,23 @@
-#contactContainer {
-    justify-content:center;
-    flex-direction:row;
+.container {
+    display:flex;
+    justify-content: center;
     align-items:center;
-    text-align:center;
+    display:inline-block;
 }
+.text-center {
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.btn {
+    color:white;
+}
+
+#form {
+    width:100%;
+    margin:auto;
+}
+
+

@@ -8,3 +8,28 @@ h1 {
     text-align:center;
     color:white;
 }
+
+.card mb-3 {
+    background-color:pink; 
+}
+
+.card-body {
+    background-color: var(--lightpink); 
+    
+}
+
+.card-title {
+    color:white; 
+    justify-content: center;
+    text-align:center;
+    
+}
+
+.card {
+    border:none;
+}
+
+.recipe {
+    width:5%;
+    height:5%;
+}
