@@ -4,7 +4,14 @@
     color:white;
     text-align:center;
     height:35vw;
+
 }
+
+#myName{
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-size:100px;
+}
+
 
 .nav-item {
     display: inline-block;
@@ -22,3 +29,61 @@
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
   }
+
+  .buttons{
+      padding:10px;
+      
+  }
+
+  .git{
+    border-radius: 25px;
+    background: white;
+    padding: 20px; 
+    width: 100px;
+    height: 50px; 
+    text-align: center;
+    line-height:0.8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity:1;
+  }
+
+  .git:hover {
+    opacity: 0.6;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;opacity: 0.6}
+
+  .link {
+    box-sizing:border-box;
+    vertical-align: middle;
+    border-radius: 25px;
+    background: white;
+    padding: 20px; 
+    width: 100px;
+    height: 50px; 
+    text-align: center;
+    line-height:0.8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity:1
+  }
+
+  .link:hover {
+    opacity: 0.6;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;opacity: 0.6}
+
+
+.credit {
+    font-family: 'Liu Jian Mao Cao', cursive;
+    float:right;
+    color:white;
+    margin-top:-60px;
+    margin-right:20px;
+
+
+} 
