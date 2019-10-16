@@ -24,7 +24,9 @@
     position: relative;
     font-weight: 300;
     font-size: 4.5em;
-    color: #402d2d;
+    color:white;
+    font-family:'Liu Jian Mao Cao', cursive;
+    padding:30px;
   }
   
   .ml5 .text-wrapper {
@@ -44,22 +46,33 @@
     margin: auto;
     height: 3px;
     width: 100%;
-    background-color: #402d2d;
+    background-color: white;
     transform-origin: 0.5 0;
   }
   
-  .ml5 .ampersand {
+  /* .ml5 .ampersand {
     font-family: Baskerville, "EB Garamond", serif;
     font-style: italic;
     font-weight: 400;
     width: 1em;
     margin-right: -0.1em;
     margin-left: -0.1em;
-  }
-  
+  } */
+/*   
   .ml5 .letters {
     display: inline-block;
     opacity: 0;
+  } */
+
+  #send {
+      /* border: 5px outset var(--grey); */
+      border: 5px solid white;
+      border-style:groove;
+      /* background-color:white; */
+      color:white;
+      padding:10px;
+      margin:30px;
+
   }
 
 

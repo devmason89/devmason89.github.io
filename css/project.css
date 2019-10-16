@@ -73,3 +73,8 @@ h1 {
 transition: 0.3s;
 text-decoration: none;
 cursor: pointer;opacity: 0.6}
+
+#pHeading {
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-size:350%;
+}

@@ -179,7 +179,7 @@
     transition-property: box-shadow, transform;
   }
   .resume:hover, .resume:focus, .resume:active {
-    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 5px -10px rgba(0, 0, 0, 0.5);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
   }
@@ -198,3 +198,10 @@
   .display-4:hover, .hvr-glow:focus, .hvr-glow:active {
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
   }
+
+  .interests {
+    font-family: 'Liu Jian Mao Cao', cursive;
+  }
+
+  
+  
